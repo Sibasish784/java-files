@@ -1,0 +1,11 @@
+package ClassTypeCasting;
+class A2Z
+{
+    public static void main(String[] args)
+    {
+        for (char i ='A' ; i <= 'Z'; i++) // for ( int i = 65; i <= 90; i++)    {System.out.println((char)i);}
+        {
+            System.out.print(i + " ");
+        }  
+    }
+}

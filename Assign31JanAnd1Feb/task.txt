@@ -1,0 +1,27 @@
+31/jan/25
+
+1. 8 programs STATIC TO STATIC BTN 2 CLASS
+2. 8 programs NON STATIC TO STATIC SAME CLASS
+3. 8 programs NON STATIC TO STATIC SAME CLASS WITH PARA METERS
+
+1/feb/25
+4. 8 programs NON STATIC TO STATIC SAME CLASS WITH RETURN
+5. 8 programs NON STATIC TO STATIC SAME CLASS WITH PARAMETERS AND RETURN
+6. 8 programs NON STATIC TO STATIC DIFFERENT CLASS WITH RETURN AND PARAMETERS
+
++-----------------------------------------------------------------+
+|            STACK   (LIFO)     |           HEAP MEMORY           |
+|                               |                                 |
+|     EXECUTES THE PROGRAM      |   NON-STATIC MEMBERS OF CLASS   |
+|                               |     (METHOD  AND VARIABLE)      |
+| METHOD BODY AND DECLARATION   |                                 |
+|    COMBINED AND EXECUTED      |                                 |
+|-----------------------------------------------------------------|
+|         METHOD AREA           |       STATIC POOL AREA          |
+|                               |                                 |
+|   ALL NON-STATIC AND STATIC   |    STATIC MEMBERS OF CLASS      |
+|    METHOD BODY'S ARE HERE     |     (METHOD  AND VARIABLE)      |
+|                               |                                 |
+|                               |                                 |
+|                               |                                 |
++-----------------------------------------------------------------+
