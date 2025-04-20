@@ -9,7 +9,9 @@ class FuPLogics
             int b  = rem*rem;
             n = n/10;
             store = b+" "+ store;
-            //store = store+" "+ rem;
+            //store = store+" "+ rem; //not using bcz we have to print 
+                                     //from start but we are taking the last value by using % 
+
         } 
 
         return store;
